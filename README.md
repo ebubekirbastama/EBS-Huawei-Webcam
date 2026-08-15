@@ -4,6 +4,12 @@
 
 **Huawei / Android telefonunuzu USB veya Wi-Fi üzerinden düşük gecikmeli bir PC web kamerasına dönüştürün.**
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![Android](https://img.shields.io/badge/Android-Huawei%20%2F%20Android-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-D22128?logo=apache&logoColor=white)](LICENSE)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-H.264-007808?logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
+
 `Android APK` • `Python Receiver` • `ADB` • `FFmpeg` • `Virtual Camera`
 
 **Developer:** Ebubekir Bastama  
@@ -44,6 +50,7 @@ Varsayılan profil **1920×1080 / 30 FPS**'tir.
 EBS-Huawei-Webcam/
 ├── EBS_Huawei_Webcam_Receiver.py
 ├── EBS-Huawei-Webcam-v3.0.apk
+├── requirements.txt
 ├── README.md
 └── LICENSE
 ```
@@ -56,7 +63,13 @@ EBS-Huawei-Webcam/
 - FFmpeg
 - USB hata ayıklaması açık Huawei/Android telefon
 
-Python bağımlılıkları:
+Python bağımlılıklarını tek komutla kurabilirsiniz:
+
+```bash
+pip install -r requirements.txt
+```
+
+Manuel kurulum için:
 
 ```bash
 pip install customtkinter pillow numpy pyvirtualcam
